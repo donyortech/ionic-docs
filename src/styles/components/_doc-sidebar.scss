@@ -78,10 +78,6 @@ html[data-theme='dark'] {
 
     margin: 0;
 
-    li:last-of-type {
-      padding-block-end: 1.5rem;
-    }
-
     .menu__list {
       .menu__link--sublist {
         margin-inline-start: calc(-1 * (var(--dropdown-icon-width) + var(--dropdown-icon-gap)));
@@ -102,6 +98,10 @@ html[data-theme='dark'] {
         }
       }
     }
+  }
+
+  .theme-doc-sidebar-item-category-level-1 + .theme-doc-sidebar-item-category-level-1 {
+    margin-block-start: 1.5rem;
   }
 
   .menu__link {
